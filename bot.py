@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = Your token was replaced with a new one. You can use this token to access HTTP API:
-8922234866:AAHuJP2pnK_w4V_dXJTCQcCCGKieq8j5nAU
+TOKEN = "8922234866:AAHuJP2pnK_w4V_dXJTCQcCCGKieq8j5nAU"
+
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🔮 Arcana AI Bot работает!")
