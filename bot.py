@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = "8922234866:AAHqGuQa1St_jP0BQ3ZpA-4F36nRLCs9uq4"
+TOKEN = "8922234866:AA...."
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🔮 Arcana AI Bot работает!")
